@@ -1,0 +1,651 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Road network routes for 6x6 traffic simulation",
+    "total_routes": 60,
+    "last_updated": "2025-09-16"
+  },
+  "routes": [
+    {
+      "id": "R_H_0_0",
+      "type": "horizontal",
+      "start": "N0_0",
+      "end": "N1_0",
+      "coordinates": {
+        "start": {"x": 180, "y": 100},
+        "end": {"x": 300, "y": 100}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 40,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 800,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_1_0",
+      "type": "horizontal",
+      "start": "N1_0",
+      "end": "N2_0",
+      "coordinates": {
+        "start": {"x": 360, "y": 100},
+        "end": {"x": 480, "y": 100}
+      },
+      "lanes": 4,
+      "length": 120,
+      "speed_limit": 50,
+      "direction": "bidirectional",
+      "road_type": "major_arterial",
+      "capacity": 1600,
+      "priority": "high"
+    },
+    {
+      "id": "R_H_2_0",
+      "type": "horizontal",
+      "start": "N2_0",
+      "end": "N3_0",
+      "coordinates": {
+        "start": {"x": 540, "y": 100},
+        "end": {"x": 660, "y": 100}
+      },
+      "lanes": 4,
+      "length": 120,
+      "speed_limit": 50,
+      "direction": "bidirectional",
+      "road_type": "major_arterial",
+      "capacity": 1600,
+      "priority": "high"
+    },
+    {
+      "id": "R_H_3_0",
+      "type": "horizontal",
+      "start": "N3_0",
+      "end": "N4_0",
+      "coordinates": {
+        "start": {"x": 720, "y": 100},
+        "end": {"x": 840, "y": 100}
+      },
+      "lanes": 3,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 1200,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_4_0",
+      "type": "horizontal",
+      "start": "N4_0",
+      "end": "N5_0",
+      "coordinates": {
+        "start": {"x": 900, "y": 100},
+        "end": {"x": 1020, "y": 100}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 40,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 800,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_0_1",
+      "type": "horizontal",
+      "start": "N0_1",
+      "end": "N1_1",
+      "coordinates": {
+        "start": {"x": 180, "y": 220},
+        "end": {"x": 300, "y": 220}
+      },
+      "lanes": 3,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 1200,
+      "priority": "high"
+    },
+    {
+      "id": "R_H_1_1",
+      "type": "horizontal",
+      "start": "N1_1",
+      "end": "N2_1",
+      "coordinates": {
+        "start": {"x": 360, "y": 220},
+        "end": {"x": 480, "y": 220}
+      },
+      "lanes": 4,
+      "length": 120,
+      "speed_limit": 50,
+      "direction": "bidirectional",
+      "road_type": "major_arterial",
+      "capacity": 1600,
+      "priority": "critical"
+    },
+    {
+      "id": "R_H_2_1",
+      "type": "horizontal",
+      "start": "N2_1",
+      "end": "N3_1",
+      "coordinates": {
+        "start": {"x": 540, "y": 220},
+        "end": {"x": 660, "y": 220}
+      },
+      "lanes": 4,
+      "length": 120,
+      "speed_limit": 50,
+      "direction": "bidirectional",
+      "road_type": "major_arterial",
+      "capacity": 1600,
+      "priority": "critical"
+    },
+    {
+      "id": "R_H_3_1",
+      "type": "horizontal",
+      "start": "N3_1",
+      "end": "N4_1",
+      "coordinates": {
+        "start": {"x": 720, "y": 220},
+        "end": {"x": 840, "y": 220}
+      },
+      "lanes": 3,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 1200,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_4_1",
+      "type": "horizontal",
+      "start": "N4_1",
+      "end": "N5_1",
+      "coordinates": {
+        "start": {"x": 900, "y": 220},
+        "end": {"x": 1020, "y": 220}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 40,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 800,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_0_2",
+      "type": "horizontal",
+      "start": "N0_2",
+      "end": "N1_2",
+      "coordinates": {
+        "start": {"x": 180, "y": 340},
+        "end": {"x": 300, "y": 340}
+      },
+      "lanes": 3,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 1200,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_1_2",
+      "type": "horizontal",
+      "start": "N1_2",
+      "end": "N2_2",
+      "coordinates": {
+        "start": {"x": 360, "y": 340},
+        "end": {"x": 480, "y": 340}
+      },
+      "lanes": 6,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "highway",
+      "capacity": 2400,
+      "priority": "critical"
+    },
+    {
+      "id": "R_H_2_2",
+      "type": "horizontal",
+      "start": "N2_2",
+      "end": "N3_2",
+      "coordinates": {
+        "start": {"x": 540, "y": 340},
+        "end": {"x": 660, "y": 340}
+      },
+      "lanes": 6,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "highway",
+      "capacity": 2400,
+      "priority": "critical"
+    },
+    {
+      "id": "R_H_3_2",
+      "type": "horizontal",
+      "start": "N3_2",
+      "end": "N4_2",
+      "coordinates": {
+        "start": {"x": 720, "y": 340},
+        "end": {"x": 840, "y": 340}
+      },
+      "lanes": 4,
+      "length": 120,
+      "speed_limit": 50,
+      "direction": "bidirectional",
+      "road_type": "major_arterial",
+      "capacity": 1600,
+      "priority": "high"
+    },
+    {
+      "id": "R_H_4_2",
+      "type": "horizontal",
+      "start": "N4_2",
+      "end": "N5_2",
+      "coordinates": {
+        "start": {"x": 900, "y": 340},
+        "end": {"x": 1020, "y": 340}
+      },
+      "lanes": 3,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 1200,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_0_3",
+      "type": "horizontal",
+      "start": "N0_3",
+      "end": "N1_3",
+      "coordinates": {
+        "start": {"x": 180, "y": 460},
+        "end": {"x": 300, "y": 460}
+      },
+      "lanes": 3,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 1200,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_1_3",
+      "type": "horizontal",
+      "start": "N1_3",
+      "end": "N2_3",
+      "coordinates": {
+        "start": {"x": 360, "y": 460},
+        "end": {"x": 480, "y": 460}
+      },
+      "lanes": 4,
+      "length": 120,
+      "speed_limit": 50,
+      "direction": "bidirectional",
+      "road_type": "major_arterial",
+      "capacity": 1600,
+      "priority": "high"
+    },
+    {
+      "id": "R_H_2_3",
+      "type": "horizontal",
+      "start": "N2_3",
+      "end": "N3_3",
+      "coordinates": {
+        "start": {"x": 540, "y": 460},
+        "end": {"x": 660, "y": 460}
+      },
+      "lanes": 4,
+      "length": 120,
+      "speed_limit": 50,
+      "direction": "bidirectional",
+      "road_type": "major_arterial",
+      "capacity": 1600,
+      "priority": "high"
+    },
+    {
+      "id": "R_H_3_3",
+      "type": "horizontal",
+      "start": "N3_3",
+      "end": "N4_3",
+      "coordinates": {
+        "start": {"x": 720, "y": 460},
+        "end": {"x": 840, "y": 460}
+      },
+      "lanes": 3,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 1200,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_4_3",
+      "type": "horizontal",
+      "start": "N4_3",
+      "end": "N5_3",
+      "coordinates": {
+        "start": {"x": 900, "y": 460},
+        "end": {"x": 1020, "y": 460}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 40,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 800,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_0_4",
+      "type": "horizontal",
+      "start": "N0_4",
+      "end": "N1_4",
+      "coordinates": {
+        "start": {"x": 180, "y": 580},
+        "end": {"x": 300, "y": 580}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 40,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 800,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_1_4",
+      "type": "horizontal",
+      "start": "N1_4",
+      "end": "N2_4",
+      "coordinates": {
+        "start": {"x": 360, "y": 580},
+        "end": {"x": 480, "y": 580}
+      },
+      "lanes": 3,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 1200,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_2_4",
+      "type": "horizontal",
+      "start": "N2_4",
+      "end": "N3_4",
+      "coordinates": {
+        "start": {"x": 540, "y": 580},
+        "end": {"x": 660, "y": 580}
+      },
+      "lanes": 3,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 1200,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_3_4",
+      "type": "horizontal",
+      "start": "N3_4",
+      "end": "N4_4",
+      "coordinates": {
+        "start": {"x": 720, "y": 580},
+        "end": {"x": 840, "y": 580}
+      },
+      "lanes": 3,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 1200,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_4_4",
+      "type": "horizontal",
+      "start": "N4_4",
+      "end": "N5_4",
+      "coordinates": {
+        "start": {"x": 900, "y": 580},
+        "end": {"x": 1020, "y": 580}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 40,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 800,
+      "priority": "medium"
+    },
+    {
+      "id": "R_H_0_5",
+      "type": "horizontal",
+      "start": "N0_5",
+      "end": "N1_5",
+      "coordinates": {
+        "start": {"x": 180, "y": 700},
+        "end": {"x": 300, "y": 700}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 35,
+      "direction": "bidirectional",
+      "road_type": "local",
+      "capacity": 600,
+      "priority": "low"
+    },
+    {
+      "id": "R_H_1_5",
+      "type": "horizontal",
+      "start": "N1_5",
+      "end": "N2_5",
+      "coordinates": {
+        "start": {"x": 360, "y": 700},
+        "end": {"x": 480, "y": 700}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 35,
+      "direction": "bidirectional",
+      "road_type": "local",
+      "capacity": 600,
+      "priority": "low"
+    },
+    {
+      "id": "R_H_2_5",
+      "type": "horizontal",
+      "start": "N2_5",
+      "end": "N3_5",
+      "coordinates": {
+        "start": {"x": 540, "y": 700},
+        "end": {"x": 660, "y": 700}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 35,
+      "direction": "bidirectional",
+      "road_type": "local",
+      "capacity": 600,
+      "priority": "low"
+    },
+    {
+      "id": "R_H_3_5",
+      "type": "horizontal",
+      "start": "N3_5",
+      "end": "N4_5",
+      "coordinates": {
+        "start": {"x": 720, "y": 700},
+        "end": {"x": 840, "y": 700}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 35,
+      "direction": "bidirectional",
+      "road_type": "local",
+      "capacity": 600,
+      "priority": "low"
+    },
+    {
+      "id": "R_H_4_5",
+      "type": "horizontal",
+      "start": "N4_5",
+      "end": "N5_5",
+      "coordinates": {
+        "start": {"x": 900, "y": 700},
+        "end": {"x": 1020, "y": 700}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 35,
+      "direction": "bidirectional",
+      "road_type": "local",
+      "capacity": 600,
+      "priority": "low"
+    },
+    {
+      "id": "R_V_0_0",
+      "type": "vertical",
+      "start": "N0_0",
+      "end": "N0_1",
+      "coordinates": {
+        "start": {"x": 150, "y": 130},
+        "end": {"x": 150, "y": 190}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 40,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 800,
+      "priority": "medium"
+    },
+    {
+      "id": "R_V_1_0",
+      "type": "vertical",
+      "start": "N1_0",
+      "end": "N1_1",
+      "coordinates": {
+        "start": {"x": 330, "y": 130},
+        "end": {"x": 330, "y": 190}
+      },
+      "lanes": 3,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 1200,
+      "priority": "high"
+    },
+    {
+      "id": "R_V_2_0",
+      "type": "vertical",
+      "start": "N2_0",
+      "end": "N2_1",
+      "coordinates": {
+        "start": {"x": 510, "y": 130},
+        "end": {"x": 510, "y": 190}
+      },
+      "lanes": 4,
+      "length": 120,
+      "speed_limit": 50,
+      "direction": "bidirectional",
+      "road_type": "major_arterial",
+      "capacity": 1600,
+      "priority": "critical"
+    },
+    {
+      "id": "R_V_3_0",
+      "type": "vertical",
+      "start": "N3_0",
+      "end": "N3_1",
+      "coordinates": {
+        "start": {"x": 690, "y": 130},
+        "end": {"x": 690, "y": 190}
+      },
+      "lanes": 4,
+      "length": 120,
+      "speed_limit": 50,
+      "direction": "bidirectional",
+      "road_type": "major_arterial",
+      "capacity": 1600,
+      "priority": "critical"
+    },
+    {
+      "id": "R_V_4_0",
+      "type": "vertical",
+      "start": "N4_0",
+      "end": "N4_1",
+      "coordinates": {
+        "start": {"x": 870, "y": 130},
+        "end": {"x": 870, "y": 190}
+      },
+      "lanes": 3,
+      "length": 120,
+      "speed_limit": 45,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 1200,
+      "priority": "medium"
+    },
+    {
+      "id": "R_V_5_0",
+      "type": "vertical",
+      "start": "N5_0",
+      "end": "N5_1",
+      "coordinates": {
+        "start": {"x": 1050, "y": 130},
+        "end": {"x": 1050, "y": 190}
+      },
+      "lanes": 2,
+      "length": 120,
+      "speed_limit": 40,
+      "direction": "bidirectional",
+      "road_type": "arterial",
+      "capacity": 800,
+      "priority": "medium"
+    }
+  ],
+  "emergency_routes": [
+    {
+      "id": "ER_HOSPITAL_1",
+      "start": "N1_1",
+      "waypoints": ["N2_1", "N2_2", "N3_2"],
+      "end": "N3_3",
+      "vehicle_types": ["ambulance"],
+      "priority": "critical",
+      "reserved_lanes": 1
+    },
+    {
+      "id": "ER_FIRE_1",
+      "start": "N5_0",
+      "waypoints": ["N4_0", "N3_0", "N2_0"],
+      "end": "N2_2",
+      "vehicle_types": ["fire_truck"],
+      "priority": "critical",
+      "reserved_lanes": 1
+    },
+    {
+      "id": "ER_POLICE_1",
+      "start": "N0_4",
+      "waypoints": ["N1_4", "N2_4", "N2_3"],
+      "end": "N2_2",
+      "vehicle_types": ["police"],
+      "priority": "high",
+      "reserved_lanes": 1
+    }
+  ]
+}

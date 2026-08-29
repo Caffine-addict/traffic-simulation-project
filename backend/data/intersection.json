@@ -1,0 +1,551 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Traffic intersection configuration for 6x6 grid simulation",
+    "grid_size": {"width": 6, "height": 6},
+    "cell_size": {"width": 180, "height": 120},
+    "origin": {"x": 50, "y": 50}
+  },
+  "intersections": [
+    {
+      "id": "N0_0",
+      "coordinates": {"x": 150, "y": 100},
+      "grid_position": {"gx": 0, "gy": 0},
+      "type": "traffic_light",
+      "description": "Northwest Corner - Residential Entry",
+      "signal_config": {
+        "ns_green": 30,
+        "ew_green": 25,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "low",
+      "landmarks": ["hospital", "fire_station"]
+    },
+    {
+      "id": "N1_0",
+      "coordinates": {"x": 330, "y": 100},
+      "grid_position": {"gx": 1, "gy": 0},
+      "type": "traffic_light",
+      "description": "North Central - Hospital District",
+      "signal_config": {
+        "ns_green": 35,
+        "ew_green": 30,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": ["hospital"]
+    },
+    {
+      "id": "N2_0",
+      "coordinates": {"x": 510, "y": 100},
+      "grid_position": {"gx": 2, "gy": 0},
+      "type": "traffic_light",
+      "description": "Major North Arterial",
+      "signal_config": {
+        "ns_green": 45,
+        "ew_green": 35,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "high",
+      "landmarks": []
+    },
+    {
+      "id": "N3_0",
+      "coordinates": {"x": 690, "y": 100},
+      "grid_position": {"gx": 3, "gy": 0},
+      "type": "traffic_light",
+      "description": "Business District North",
+      "signal_config": {
+        "ns_green": 40,
+        "ew_green": 35,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "high",
+      "landmarks": ["business_district"]
+    },
+    {
+      "id": "N4_0",
+      "coordinates": {"x": 870, "y": 100},
+      "grid_position": {"gx": 4, "gy": 0},
+      "type": "traffic_light",
+      "description": "Northeast Commercial",
+      "signal_config": {
+        "ns_green": 30,
+        "ew_green": 25,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": []
+    },
+    {
+      "id": "N5_0",
+      "coordinates": {"x": 1050, "y": 100},
+      "grid_position": {"gx": 5, "gy": 0},
+      "type": "stop_sign",
+      "description": "Northeast Corner - Residential Exit",
+      "signal_config": {
+        "ns_green": 25,
+        "ew_green": 20,
+        "amber": 3,
+        "all_red": 2
+      },
+      "priority": "low",
+      "landmarks": []
+    },
+    {
+      "id": "N0_1",
+      "coordinates": {"x": 150, "y": 220},
+      "grid_position": {"gx": 0, "gy": 1},
+      "type": "traffic_light",
+      "description": "West Side - Residential",
+      "signal_config": {
+        "ns_green": 30,
+        "ew_green": 25,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "low",
+      "landmarks": []
+    },
+    {
+      "id": "N1_1",
+      "coordinates": {"x": 330, "y": 220},
+      "grid_position": {"gx": 1, "gy": 1},
+      "type": "traffic_light",
+      "description": "Hospital Access Road",
+      "signal_config": {
+        "ns_green": 35,
+        "ew_green": 30,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "high",
+      "landmarks": ["hospital", "emergency_access"]
+    },
+    {
+      "id": "N2_1",
+      "coordinates": {"x": 510, "y": 220},
+      "grid_position": {"gx": 2, "gy": 1},
+      "type": "traffic_light",
+      "description": "Main Street Central",
+      "signal_config": {
+        "ns_green": 50,
+        "ew_green": 40,
+        "amber": 5,
+        "all_red": 2
+      },
+      "priority": "high",
+      "landmarks": ["city_center"]
+    },
+    {
+      "id": "N3_1",
+      "coordinates": {"x": 690, "y": 220},
+      "grid_position": {"gx": 3, "gy": 1},
+      "type": "traffic_light",
+      "description": "Business District Central",
+      "signal_config": {
+        "ns_green": 45,
+        "ew_green": 40,
+        "amber": 5,
+        "all_red": 2
+      },
+      "priority": "high",
+      "landmarks": ["business_district", "bank"]
+    },
+    {
+      "id": "N4_1",
+      "coordinates": {"x": 870, "y": 220},
+      "grid_position": {"gx": 4, "gy": 1},
+      "type": "traffic_light",
+      "description": "Commercial East",
+      "signal_config": {
+        "ns_green": 35,
+        "ew_green": 30,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": []
+    },
+    {
+      "id": "N5_1",
+      "coordinates": {"x": 1050, "y": 220},
+      "grid_position": {"gx": 5, "gy": 1},
+      "type": "traffic_light",
+      "description": "East Side Access",
+      "signal_config": {
+        "ns_green": 25,
+        "ew_green": 20,
+        "amber": 3,
+        "all_red": 2
+      },
+      "priority": "low",
+      "landmarks": []
+    },
+    {
+      "id": "N0_2",
+      "coordinates": {"x": 150, "y": 340},
+      "grid_position": {"gx": 0, "gy": 2},
+      "type": "traffic_light",
+      "description": "Southwest Arterial",
+      "signal_config": {
+        "ns_green": 40,
+        "ew_green": 35,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": []
+    },
+    {
+      "id": "N1_2",
+      "coordinates": {"x": 330, "y": 340},
+      "grid_position": {"gx": 1, "gy": 2},
+      "type": "traffic_light",
+      "description": "University District North",
+      "signal_config": {
+        "ns_green": 40,
+        "ew_green": 35,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": ["university"]
+    },
+    {
+      "id": "N2_2",
+      "coordinates": {"x": 510, "y": 340},
+      "grid_position": {"gx": 2, "gy": 2},
+      "type": "traffic_light",
+      "description": "Downtown Hub",
+      "signal_config": {
+        "ns_green": 60,
+        "ew_green": 50,
+        "amber": 5,
+        "all_red": 3
+      },
+      "priority": "critical",
+      "landmarks": ["downtown", "transit_hub", "shopping"]
+    },
+    {
+      "id": "N3_2",
+      "coordinates": {"x": 690, "y": 340},
+      "grid_position": {"gx": 3, "gy": 2},
+      "type": "traffic_light",
+      "description": "Business Core",
+      "signal_config": {
+        "ns_green": 55,
+        "ew_green": 45,
+        "amber": 5,
+        "all_red": 3
+      },
+      "priority": "critical",
+      "landmarks": ["business_district", "office_towers"]
+    },
+    {
+      "id": "N4_2",
+      "coordinates": {"x": 870, "y": 340},
+      "grid_position": {"gx": 4, "gy": 2},
+      "type": "traffic_light",
+      "description": "Shopping District",
+      "signal_config": {
+        "ns_green": 35,
+        "ew_green": 30,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": ["shopping_mall", "retail"]
+    },
+    {
+      "id": "N5_2",
+      "coordinates": {"x": 1050, "y": 340},
+      "grid_position": {"gx": 5, "gy": 2},
+      "type": "traffic_light",
+      "description": "East Shopping Access",
+      "signal_config": {
+        "ns_green": 30,
+        "ew_green": 25,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": ["shopping_mall"]
+    },
+    {
+      "id": "N0_3",
+      "coordinates": {"x": 150, "y": 460},
+      "grid_position": {"gx": 0, "gy": 3},
+      "type": "traffic_light",
+      "description": "West Connector",
+      "signal_config": {
+        "ns_green": 35,
+        "ew_green": 30,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": []
+    },
+    {
+      "id": "N1_3",
+      "coordinates": {"x": 330, "y": 460},
+      "grid_position": {"gx": 1, "gy": 3},
+      "type": "traffic_light",
+      "description": "University Main Gate",
+      "signal_config": {
+        "ns_green": 45,
+        "ew_green": 40,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "high",
+      "landmarks": ["university", "student_housing"]
+    },
+    {
+      "id": "N2_3",
+      "coordinates": {"x": 510, "y": 460},
+      "grid_position": {"gx": 2, "gy": 3},
+      "type": "traffic_light",
+      "description": "Transit Center",
+      "signal_config": {
+        "ns_green": 50,
+        "ew_green": 45,
+        "amber": 5,
+        "all_red": 2
+      },
+      "priority": "high",
+      "landmarks": ["transit_center", "bus_terminal"]
+    },
+    {
+      "id": "N3_3",
+      "coordinates": {"x": 690, "y": 460},
+      "grid_position": {"gx": 3, "gy": 3},
+      "type": "traffic_light",
+      "description": "Financial District",
+      "signal_config": {
+        "ns_green": 50,
+        "ew_green": 45,
+        "amber": 5,
+        "all_red": 2
+      },
+      "priority": "high",
+      "landmarks": ["financial_district", "government"]
+    },
+    {
+      "id": "N4_3",
+      "coordinates": {"x": 870, "y": 460},
+      "grid_position": {"gx": 4, "gy": 3},
+      "type": "traffic_light",
+      "description": "Entertainment District",
+      "signal_config": {
+        "ns_green": 40,
+        "ew_green": 35,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": ["entertainment", "restaurants"]
+    },
+    {
+      "id": "N5_3",
+      "coordinates": {"x": 1050, "y": 460},
+      "grid_position": {"gx": 5, "gy": 3},
+      "type": "traffic_light",
+      "description": "East Entertainment",
+      "signal_config": {
+        "ns_green": 30,
+        "ew_green": 25,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "low",
+      "landmarks": []
+    },
+    {
+      "id": "N0_4",
+      "coordinates": {"x": 150, "y": 580},
+      "grid_position": {"gx": 0, "gy": 4},
+      "type": "traffic_light",
+      "description": "South Residential",
+      "signal_config": {
+        "ns_green": 30,
+        "ew_green": 25,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "low",
+      "landmarks": ["police_station"]
+    },
+    {
+      "id": "N1_4",
+      "coordinates": {"x": 330, "y": 580},
+      "grid_position": {"gx": 1, "gy": 4},
+      "type": "traffic_light",
+      "description": "South University",
+      "signal_config": {
+        "ns_green": 35,
+        "ew_green": 30,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": ["university", "sports_complex"]
+    },
+    {
+      "id": "N2_4",
+      "coordinates": {"x": 510, "y": 580},
+      "grid_position": {"gx": 2, "gy": 4},
+      "type": "traffic_light",
+      "description": "South Transit Hub",
+      "signal_config": {
+        "ns_green": 40,
+        "ew_green": 35,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": ["transit_hub", "park"]
+    },
+    {
+      "id": "N3_4",
+      "coordinates": {"x": 690, "y": 580},
+      "grid_position": {"gx": 3, "gy": 4},
+      "type": "traffic_light",
+      "description": "South Business",
+      "signal_config": {
+        "ns_green": 35,
+        "ew_green": 30,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": ["business_park"]
+    },
+    {
+      "id": "N4_4",
+      "coordinates": {"x": 870, "y": 580},
+      "grid_position": {"gx": 4, "gy": 4},
+      "type": "traffic_light",
+      "description": "Industrial Access",
+      "signal_config": {
+        "ns_green": 35,
+        "ew_green": 30,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": ["industrial_zone"]
+    },
+    {
+      "id": "N5_4",
+      "coordinates": {"x": 1050, "y": 580},
+      "grid_position": {"gx": 5, "gy": 4},
+      "type": "traffic_light",
+      "description": "Southeast Commercial",
+      "signal_config": {
+        "ns_green": 25,
+        "ew_green": 20,
+        "amber": 3,
+        "all_red": 2
+      },
+      "priority": "low",
+      "landmarks": []
+    },
+    {
+      "id": "N0_5",
+      "coordinates": {"x": 150, "y": 700},
+      "grid_position": {"gx": 0, "gy": 5},
+      "type": "stop_sign",
+      "description": "Southwest Corner - Residential",
+      "signal_config": {
+        "ns_green": 25,
+        "ew_green": 20,
+        "amber": 3,
+        "all_red": 2
+      },
+      "priority": "low",
+      "landmarks": ["police_station"]
+    },
+    {
+      "id": "N1_5",
+      "coordinates": {"x": 330, "y": 700},
+      "grid_position": {"gx": 1, "gy": 5},
+      "type": "traffic_light",
+      "description": "South Exit - University",
+      "signal_config": {
+        "ns_green": 30,
+        "ew_green": 25,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "low",
+      "landmarks": ["university"]
+    },
+    {
+      "id": "N2_5",
+      "coordinates": {"x": 510, "y": 700},
+      "grid_position": {"gx": 2, "gy": 5},
+      "type": "traffic_light",
+      "description": "South Arterial",
+      "signal_config": {
+        "ns_green": 35,
+        "ew_green": 30,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "medium",
+      "landmarks": []
+    },
+    {
+      "id": "N3_5",
+      "coordinates": {"x": 690, "y": 700},
+      "grid_position": {"gx": 3, "gy": 5},
+      "type": "traffic_light",
+      "description": "Industrial South",
+      "signal_config": {
+        "ns_green": 30,
+        "ew_green": 25,
+        "amber": 4,
+        "all_red": 2
+      },
+      "priority": "low",
+      "landmarks": ["industrial_zone", "warehouse"]
+    },
+    {
+      "id": "N4_5",
+      "coordinates": {"x": 870, "y": 700},
+      "grid_position": {"gx": 4, "gy": 5},
+      "type": "traffic_light",
+      "description": "Southeast Industrial",
+      "signal_config": {
+        "ns_green": 25,
+        "ew_green": 20,
+        "amber": 3,
+        "all_red": 2
+      },
+      "priority": "low",
+      "landmarks": ["industrial_zone"]
+    },
+    {
+      "id": "N5_5",
+      "coordinates": {"x": 1050, "y": 700},
+      "grid_position": {"gx": 5, "gy": 5},
+      "type": "stop_sign",
+      "description": "Southeast Corner - Exit",
+      "signal_config": {
+        "ns_green": 20,
+        "ew_green": 15,
+        "amber": 3,
+        "all_red": 2
+      },
+      "priority": "low",
+      "landmarks": []
+    }
+  ]
+}
